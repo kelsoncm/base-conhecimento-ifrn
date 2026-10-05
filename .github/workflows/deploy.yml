@@ -35,7 +35,7 @@ jobs:
 
       - name: Build documentation
         env:
-          GA_MEASUREMENT_ID: ${{ vars.GA_MEASUREMENT_ID }}
+          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID || vars.GA_MEASUREMENT_ID }}
         run: mkdocs build --strict
 
       - name: Upload Pages artifact
