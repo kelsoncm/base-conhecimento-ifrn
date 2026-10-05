@@ -38,7 +38,6 @@ act -j build --pull=false
 ```
 docs/
 ├─ index.md
-├─ contribuindo.md
 ├─ redes/
 │  ├─ solucao-problemas-wifi-eduroam.md
 │  ├─ autorizacao-dispositivos-wifrn-iot.md
@@ -57,9 +56,14 @@ docs/
    └─ abertura-chamados-suap.md
 templates/
 └─ artigo.md
+CONTRIBUTING.md
+SECURITY.md
+hooks.py
 mkdocs.yml
 requirements.txt
 ```
+
+> **Nota:** Durante a compilação do site, o script [`hooks.py`](hooks.py) copia automaticamente `CONTRIBUTING.md` para `docs/contribuindo.md` e `SECURITY.md` para `docs/seguranca.md`, disponibilizando ambos na aba **Início** da documentação online.
 
 ---
 

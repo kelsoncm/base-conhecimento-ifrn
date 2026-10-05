@@ -63,4 +63,4 @@ Cada artigo da base possui um nível de confiabilidade declarado em seu cabeçal
 
 ## 🔒 Segurança da Informação
 
-Todos os artigos respeitam as diretrizes de segurança da informação e privacidade (LGPD). Exemplos de IPs e credenciais são puramente didáticos. Para reportar falhas ou dúvidas de segurança, consulte a nossa [Política de Segurança](https://github.com/kelsoncm/base-conhecimento-ifrn/blob/main/SECURITY.md).
+Todos os artigos respeitam as diretrizes de segurança da informação e privacidade (LGPD). Exemplos de IPs e credenciais são puramente didáticos. Para reportar falhas ou dúvidas de segurança, consulte a nossa [Política de Segurança](seguranca.md).

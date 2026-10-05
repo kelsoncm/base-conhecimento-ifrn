@@ -34,6 +34,9 @@ theme:
     - search.highlight
     - content.code.copy
 
+hooks:
+  - hooks.py
+
 plugins:
   - search
 
@@ -54,7 +57,10 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Início: index.md
+  - Início:
+      - Apresentação: index.md
+      - Como Contribuir: contribuindo.md
+      - Política de Segurança: seguranca.md
   - Redes:
       - Solução de problemas Wi-Fi: redes/solucao-problemas-wifi-eduroam.md
       - Autorização na rede IoT: redes/autorizacao-dispositivos-wifrn-iot.md
@@ -70,5 +76,3 @@ nav:
   - Procedimentos:
       - Liberação de Usuários Externos: procedimentos/liberacao-usuarios-externos.md
       - Abertura de Chamados no SUAP: procedimentos/abertura-chamados-suap.md
-  - Contribuição:
-      - Como Contribuir: contribuindo.md
