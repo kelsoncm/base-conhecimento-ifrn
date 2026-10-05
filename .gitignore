@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated documentation files copied from root
+docs/contribuindo.md
+docs/seguranca.md

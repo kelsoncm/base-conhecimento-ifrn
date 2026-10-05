@@ -1,0 +1,81 @@
+site_name: Base de Conhecimento TIC IFRN
+site_description: Repositório de artigos técnicos e procedimentos para equipes de TIC do IFRN.
+site_author: Equipe TIC IFRN
+site_url: https://kelsoncm.github.io/base-conhecimento-ifrn/
+
+repo_name: kelsoncm/base-conhecimento-ifrn
+repo_url: https://github.com/kelsoncm/base-conhecimento-ifrn
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Mudar para tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para tema claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+hooks:
+  - hooks.py
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Início:
+      - Apresentação: index.md
+      - Como Contribuir: contribuindo.md
+      - Política de Segurança: seguranca.md
+  - Redes:
+      - Solução de problemas Wi-Fi: redes/solucao-problemas-wifi-eduroam.md
+      - Autorização na rede IoT: redes/autorizacao-dispositivos-wifrn-iot.md
+      - Reserva de IP fixo via DHCP: redes/reserva-ip-dhcp.md
+  - Infraestrutura:
+      - Migração VMware para Proxmox: infraestrutura/migracao-vmware-proxmox.md
+      - Monitoramento LibreNMS e Zabbix: infraestrutura/monitoramento-librenms-zabbix.md
+  - Sistemas & Desenvolvimento:
+      - Diagnóstico de lentidão no SUAP: suap/lentidao-modulo-rsc.md
+      - Integração com a API do SUAP: desenvolvimento/integracao-api-suap.md
+  - Serviços & Comunicação:
+      - Configuração de E-mail Institucional: e-mail/configuracao-email-institucional.md
+  - Procedimentos:
+      - Liberação de Usuários Externos: procedimentos/liberacao-usuarios-externos.md
+      - Abertura de Chamados no SUAP: procedimentos/abertura-chamados-suap.md
