@@ -10,27 +10,27 @@ Bem-vindo à **Base de Conhecimento de TIC do IFRN**! Este repositório centrali
 
 -   :material-wifi: **Redes e Conectividade**
     <br>
-    Configurações e diagnósticos de Wi-Fi corporativo (*eduroam*, *wIFRN-Corp*, *wIFRN-IoT*) e serviços de rede como DHCP.
+    Configurações de Wi-Fi corporativo (*eduroam*, *wIFRN-Corp*, *wIFRN-IoT*), DHCP e convênio da Infovia Potiguar.
     
     [:octicons-arrow-right-24: Ver artigos de Redes](redes/solucao-problemas-wifi-eduroam.md)
 
+-   :material-application-cog: **SUAP**
+    <br>
+    Diagnóstico de desempenho no SUAP, preenchimento no PGD/RSC, e-mail institucional e integração via APIs.
+    
+    [:octicons-arrow-right-24: Ver artigos do SUAP](suap/lentidao-modulo-rsc.md)
+
 -   :material-server: **Infraestrutura**
     <br>
-    Virtualização com Proxmox VE, migração de ambientes VMware, backup automatizado (PBS) e monitoramento de ativos com LibreNMS e Zabbix.
+    Virtualização com Proxmox VE, migração de ambientes VMware, backup automatizado (PBS) e monitoramento com LibreNMS e Zabbix.
     
     [:octicons-arrow-right-24: Ver artigos de Infraestrutura](infraestrutura/migracao-vmware-proxmox.md)
 
--   :material-application-cog: **Sistemas & SUAP**
+-   :material-desktop-classic: **Sistemas Institucionais**
     <br>
-    Diagnóstico de desempenho no SUAP, tratamento de picos de carga (módulos como RSC) e integração via APIs institucionais.
+    Instalação de RSAT via WSUS/FOD, limites de envio no webmail e cadastro biométrico no sistema de ponto.
     
-    [:octicons-arrow-right-24: Ver artigos de Sistemas](suap/lentidao-modulo-rsc.md)
-
--   :material-email-outline: **Serviços & E-mail**
-    <br>
-    Configuração de clientes de e-mail institucional e comunicação integrada para servidores e setores.
-    
-    [:octicons-arrow-right-24: Ver artigos de E-mail](e-mail/configuracao-email-institucional.md)
+    [:octicons-arrow-right-24: Ver Sistemas](sistemas/windows-update-wsus-rsat.md)
 
 -   :material-remote-desktop: **Acesso Remoto**
     <br>
@@ -43,6 +43,12 @@ Bem-vindo à **Base de Conhecimento de TIC do IFRN**! Este repositório centrali
     Planejamento de demanda, gestão de franquias e acompanhamento de contratos como outsourcing de impressão.
     
     [:octicons-arrow-right-24: Ver Contratos](contratos/outsourcing-impressao-demanda.md)
+
+-   :material-license: **Licenças de Software**
+    <br>
+    Orientações sobre licenças institucionais do Microsoft 365 / Office 365 e programas de benefícios educacionais.
+    
+    [:octicons-arrow-right-24: Ver Licenças](licencas/office365-microsoft365-licencas.md)
 
 -   :material-clipboard-list-outline: **Procedimentos Operacionais**
     <br>

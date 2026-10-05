@@ -9,25 +9,31 @@ docs/
 ├─ redes/
 │  ├─ solucao-problemas-wifi-eduroam.md
 │  ├─ autorizacao-dispositivos-wifrn-iot.md
-│  └─ reserva-ip-dhcp.md
+│  ├─ reserva-ip-dhcp.md
+│  ├─ infovia-potiguar-rnp.md
+│  ├─ linux-wifi-corporativo.md
+│  └─ eventos-wifi-visitantes.md
+├─ suap/
+│  ├─ lentidao-modulo-rsc.md
+│  ├─ configuracao-email-institucional.md
+│  ├─ integracao-api-suap.md
+│  └─ pgd-rsc-preenchimento-tempo.md
 ├─ infraestrutura/
 │  ├─ migracao-vmware-proxmox.md
-│  ├─ monitoramento-librenms-zabbix.md
-│  └─ windows-update-wsus-rsat.md
-├─ suap/
-│  └─ lentidao-modulo-rsc.md
-├─ desenvolvimento/
-│  └─ integracao-api-suap.md
-├─ e-mail/
-│  ├─ configuracao-email-institucional.md
-│  └─ limites-envio-email-webmail.md
+│  └─ monitoramento-librenms-zabbix.md
+├─ procedimentos/
+│  ├─ liberacao-usuarios-externos.md
+│  └─ abertura-chamados-suap.md
+├─ sistemas/
+│  ├─ windows-update-wsus-rsat.md
+│  ├─ limites-envio-email-webmail.md
+│  └─ sistema-ponto-cadastro-digital.md
 ├─ contratos/
 │  └─ outsourcing-impressao-demanda.md
 ├─ acesso-remoto/
 │  └─ guacamole-solicitacao.md
-└─ procedimentos/
-   ├─ liberacao-usuarios-externos.md
-   └─ abertura-chamados-suap.md
+└─ licencas/
+   └─ office365-microsoft365-licencas.md
 templates/
 └─ artigo.md
 ```
@@ -49,40 +55,49 @@ templates/
 
 ## Artigos disponíveis
 
-### Redes
+### Redes (6 artigos)
 
 - [Solução de problemas de conexão à eduroam e wIFRN-Corp](docs/redes/solucao-problemas-wifi-eduroam.md)
 - [Como autorizar dispositivos na rede wIFRN-IoT](docs/redes/autorizacao-dispositivos-wifrn-iot.md)
 - [Reserva de IP fixo via DHCP para dispositivos](docs/redes/reserva-ip-dhcp.md)
+- [Infovia Potiguar e RNP - Convênio e responsabilidades](docs/redes/infovia-potiguar-rnp.md)
+- [Linux - Configuração de Wi-Fi corporativo](docs/redes/linux-wifi-corporativo.md)
+- [Eventos e Wi-Fi para visitantes](docs/redes/eventos-wifi-visitantes.md)
 
-### Infraestrutura
+### SUAP (4 artigos)
+
+- [Diagnóstico de lentidão no SUAP em períodos de alta demanda](docs/suap/lentidao-modulo-rsc.md)
+- [Configuração de clientes de e-mail institucional](docs/suap/configuracao-email-institucional.md)
+- [Integração de aplicações com a API do SUAP](docs/suap/integracao-api-suap.md)
+- [PGD e RSC - Preenchimento de tempo e designações](docs/suap/pgd-rsc-preenchimento-tempo.md)
+
+### Infraestrutura (2 artigos)
 
 - [Migração de infraestrutura VMware para Proxmox com backup automatizado](docs/infraestrutura/migracao-vmware-proxmox.md)
 - [Monitoramento de rede com LibreNMS e Zabbix](docs/infraestrutura/monitoramento-librenms-zabbix.md)
-- [Windows Update e WSUS - Instalação de RSAT e Features on Demand](docs/infraestrutura/windows-update-wsus-rsat.md)
 
-### SUAP & Desenvolvimento
-
-- [Diagnóstico de lentidão no SUAP em períodos de alta demanda](docs/suap/lentidao-modulo-rsc.md)
-- [Integração de aplicações com a API do SUAP](docs/desenvolvimento/integracao-api-suap.md)
-
-### Serviços & E-mail
-
-- [Configuração de clientes de e-mail institucional](docs/e-mail/configuracao-email-institucional.md)
-- [Limites de envio de e-mail no webmail institucional](docs/e-mail/limites-envio-email-webmail.md)
-
-### Acesso Remoto
-
-- [Guacamole - Solicitação de acesso remoto ao SUAP](docs/acesso-remoto/guacamole-solicitacao.md)
-
-### Contratos
-
-- [Outsourcing de impressão - Planejamento de demanda e contratos](docs/contratos/outsourcing-impressao-demanda.md)
-
-### Procedimentos
+### Procedimentos (2 artigos)
 
 - [Liberação de usuários externos para uso de laboratórios](docs/procedimentos/liberacao-usuarios-externos.md)
 - [Abertura de chamados na Central de Serviços do SUAP](docs/procedimentos/abertura-chamados-suap.md)
+
+### Sistemas (3 artigos)
+
+- [Windows Update e WSUS - Instalação de RSAT](docs/sistemas/windows-update-wsus-rsat.md)
+- [Limites de envio de e-mail no webmail](docs/sistemas/limites-envio-email-webmail.md)
+- [Sistema de ponto - Cadastro de digital](docs/sistemas/sistema-ponto-cadastro-digital.md)
+
+### Contratos (1 artigo)
+
+- [Outsourcing de impressão - Planejamento de demanda](docs/contratos/outsourcing-impressao-demanda.md)
+
+### Acesso Remoto (1 artigo)
+
+- [Guacamole - Solicitação de acesso remoto](docs/acesso-remoto/guacamole-solicitacao.md)
+
+### Licenças (1 artigo)
+
+- [Office 365 e Microsoft 365 - Licenças disponíveis](docs/licencas/office365-microsoft365-licencas.md)
 
 ## Visualização Local
 
