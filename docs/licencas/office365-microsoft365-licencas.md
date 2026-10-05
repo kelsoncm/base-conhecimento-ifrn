@@ -1,10 +1,10 @@
----
+﻿---
 title: "Office 365 e Microsoft 365 - Licenças e acesso para servidores e alunos"
 category: "Contratos"
 service: "Microsoft 365"
 audience: ["TIC", "Servidores", "Alunos"]
 tags: ["office", "microsoft 365", "licenças", "mac", "windows", "azure", "educação"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

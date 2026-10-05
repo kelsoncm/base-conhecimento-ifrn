@@ -1,10 +1,10 @@
----
+﻿---
 title: "Outsourcing de impressão - Planejamento de demanda e contratos"
 category: "Contratos"
 service: "Impressão"
 audience: ["TIC", "COFINC", "Gestão"]
 tags: ["impressão", "outsourcing", "contrato", "demanda", "franquia", "excedente"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

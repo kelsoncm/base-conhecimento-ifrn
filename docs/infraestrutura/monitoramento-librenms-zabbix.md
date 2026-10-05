@@ -1,10 +1,10 @@
----
+﻿---
 title: "Monitoramento de rede com LibreNMS e Zabbix"
 category: "Infraestrutura"
 service: "Monitoramento"
 audience: ["TIC", "Administradores de Rede"]
 tags: ["monitoramento", "librenms", "zabbix", "rede", "snmp", "grafana"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

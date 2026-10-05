@@ -1,10 +1,10 @@
----
+﻿---
 title: "Infovia Potiguar e RNP - Convênio e responsabilidades dos campi"
 category: "Redes"
 service: "Infovia Potiguar"
 audience: ["TIC", "COTIC", "Gestão"]
 tags: ["infovia", "rnp", "convênio", "NOC", "responsabilidades", "ufrn"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

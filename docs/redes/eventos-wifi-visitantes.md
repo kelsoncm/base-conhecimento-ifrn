@@ -1,10 +1,10 @@
----
+﻿---
 title: "Eventos e Wi-Fi para visitantes - Uso da rede wIFRN-Visitantes com GOV.BR"
 category: "Redes"
 service: "Wi-Fi"
 audience: ["TIC", "Eventos", "Visitantes"]
 tags: ["wifi", "visitantes", "eventos", "gov.br", "wifrn-visitantes", "senha"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Liberação de usuários externos para uso de laboratórios"
 category: "Procedimentos"
 service: "Acesso e Autenticação"
 audience: ["TIC", "Coordenadores de Curso", "Docentes"]
 tags: ["usuários externos", "laboratórios", "suap", "gov.br", "extensão"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

@@ -1,10 +1,10 @@
----
+﻿---
 title: "PGD e RSC - Preenchimento de tempo, fração de hora e designações"
 category: "SUAP"
 service: "PGD/RSC"
 audience: ["TIC", "TAEs", "Gestão"]
 tags: ["pgd", "rsc", "tempo", "hora", "designação", "pontuação"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

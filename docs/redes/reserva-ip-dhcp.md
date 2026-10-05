@@ -1,10 +1,10 @@
----
+﻿---
 title: "Reserva de IP fixo via DHCP para dispositivos"
 category: "Redes"
 service: "DHCP"
 audience: ["TIC", "Administradores de Rede"]
 tags: ["dhcp", "ip", "reserva", "dispositivos", "rede", "iot"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

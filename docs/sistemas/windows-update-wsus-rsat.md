@@ -1,10 +1,10 @@
----
+﻿---
 title: "Windows Update e WSUS - Instalação de RSAT e Features on Demand"
 category: "Infraestrutura"
 service: "Windows"
 audience: ["TIC", "Suporte", "Administradores"]
 tags: ["windows", "wsus", "update", "rsat", "features on demand", "ferramentas administrativas"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

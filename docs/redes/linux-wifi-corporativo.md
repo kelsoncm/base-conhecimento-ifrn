@@ -1,10 +1,10 @@
----
+﻿---
 title: "Linux - Configuração de Wi-Fi corporativo (eduroam e wIFRN-Corp)"
 category: "Redes"
 service: "Wi-Fi"
 audience: ["TIC", "Usuários Linux"]
 tags: ["linux", "wifi", "eduroam", "wifrn-corp", "certificado", "ubuntu"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---
