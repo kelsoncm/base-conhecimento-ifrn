@@ -22,7 +22,7 @@ A rede wIFRN-IoT requer cadastro prévio do endereço MAC de cada dispositivo e 
 ### 1. Acessar o formulário de autorização
 
 - Acessar o sistema SUAP no formulário de autorização de dispositivos Wi-Fi.
-- URL típica: `https://suap.ifrn.edu.br/admin/integracao/wifi/autorizacao_dispositivo/`
+- URL típica: `https://suap.ifrn.edu.br/admin/integracao_wifi/autorizacaodispositivo/`
 
 ### 2. Cadastrar o dispositivo
 
@@ -63,7 +63,7 @@ COTIC do campus e equipe de segurança de rede (firewall).
 
 ## Links oficiais
 
-- [Formulário de autorização de dispositivos no SUAP](https://suap.ifrn.edu.br/admin/integracao/wifi/autorizacao_dispositivo/)
+- [Autorizações de dispositivos no SUAP](https://suap.ifrn.edu.br/admin/integracao_wifi/autorizacaodispositivo/)
 
 ## Nível de confiabilidade
 

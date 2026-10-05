@@ -99,10 +99,10 @@ Equipe de desenvolvimento do SUAP (DINRE/DITIC).
 
 ## Links oficiais
 
-- [Documentação da API (RapiDocs)](https://suap.ifrn.edu.br/rapidocs)
-- [Cliente SUAP para Django (oficial)](https://github.com/ifrn-oficial/clientesuapdjango)
-- [Cliente SUAP para JavaScript (oficial)](https://github.com/ifrn-oficial/clientesuapjavascript)
-- [django-auth-suap (comunidade)](https://django-by-kelsoncm.github.io/django-auth-suap/pt-br/1.8.x/index.html)
+- [Documentação da API (RapiDocs)](https://suap.ifrn.edu.br/api/docs/)
+- [Cliente SUAP para Django (django-auth-suap, ativo)](https://django-by-kelsoncm.github.io/django-auth-suap/)
+- [Cliente SUAP para Django (oficial, descontinuado)](https://github.com/ifrn-oficial/clientesuapdjango)
+- [Cliente SUAP para JavaScript (oficial, descontinuado)](https://github.com/ifrn-oficial/clientesuapjavascript)
 
 ## Nível de confiabilidade
 
@@ -111,6 +111,6 @@ Prático.
 ## Notas adicionais
 
 - Projetos oficiais podem estar desatualizados; validar antes de usar.
-- A biblioteca `django-auth-suap` foi criada por membro da comunidade e pode ser mais atualizada.
+- A biblioteca `django-auth-suap` foi criada por membro da comunidade e é mais atualizada.
 - Sem conhecer o problema específico (linguagem, framework, erro), só é possível oferecer orientação genérica.
 - A integração requer entendimento de OAuth 2 ou JWT, dependendo do caso de uso.
