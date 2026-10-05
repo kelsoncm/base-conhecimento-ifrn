@@ -6,7 +6,7 @@ audience: ["TIC", "Servidores", "Alunos"]
 tags: ["office", "microsoft 365", "licenças", "mac", "windows", "azure", "educação"]
 status: "prático"
 last_review: "2026-10-05"
-source: "Experiências trocadas entre colaboradores"
+source: "Conversa WhatsApp TIC IFRN e Azure Education"
 ---
 
 ## Sintoma
