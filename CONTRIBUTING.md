@@ -1,6 +1,8 @@
 # Como Contribuir
 
-Este repositório contém a base de conhecimento técnica das equipes de TIC do IFRN. Contribuições são bem-vindas para melhorar a qualidade, atualizar procedimentos e adicionar novos artigos.
+Este repositório reúne anotações técnicas, procedimentos e compartilhamento de conhecimentos pessoais mantidos por Kelson da Costa Medeiros. Contribuições, correções e sugestões de melhoria são muito bem-vindas.
+
+> **Importante:** Este projeto não é uma base oficial do IFRN. Todas as contribuições devem focar em documentação técnica clara, reprodutível e respeitar rigorosamente a segurança da informação e a privacidade.
 
 ## Tipos de contribuição
 
@@ -8,25 +10,25 @@ Este repositório contém a base de conhecimento técnica das equipes de TIC do 
 
 Use o template em `templates/artigo.md` para criar artigos sobre:
 
-- Procedimentos de suporte técnico.
-- Solução de problemas recorrentes.
-- Configuração de sistemas e serviços.
-- Migrações de infraestrutura.
+- Procedimentos técnicos e tutoriais passo a passo.
+- Solução de problemas operacionais recorrentes (troubleshooting).
+- Configuração de sistemas, redes e serviços.
+- Migrações e boas práticas de infraestrutura.
 - Integrações e APIs.
-- Normativos e processos institucionais.
+- Referências normativas e notas técnicas.
 
 ### 2. Atualizar artigos existentes
 
-- Corrigir informações desatualizadas.
-- Adicionar novos passos ou exceções identificadas.
-- Melhorar clareza e objetividade.
-- Atualizar links e referências.
+- Corrigir comandos ou informações desatualizadas.
+- Adicionar novos passos, cenários alternativos ou exceções identificadas.
+- Melhorar a clareza, formatação e didática do texto.
+- Atualizar links e referências externas.
 
 ### 3. Revisar artigos
 
-- Validar procedimentos com a equipe responsável.
-- Testar passos descritos em ambiente controlado.
-- Sugerir melhorias de redação ou estrutura.
+- Validar procedimentos em ambiente de laboratório/teste.
+- Testar passos descritos antes da aplicação em produção.
+- Sugerir melhorias de redação, taxonomia ou estrutura.
 
 ## Processo de contribuição
 
@@ -41,8 +43,8 @@ Use o template em `templates/artigo.md` para criar artigos sobre:
 ### Passo 2: Criar ou editar artigo
 
 1. Use o template em `templates/artigo.md`.
-2. Preencha todos os campos do frontmatter YAML.
-3. Salve o arquivo na pasta apropriada em `docs/`.
+2. Preencha todos os campos do frontmatter YAML (incluindo `reliability: "prático"` ou nível adequado).
+3. Salve o arquivo na pasta apropriada em `docs/ifrn/` (ou crie uma nova pasta temática se for outro assunto).
 
 ### Passo 3: Revisar o conteúdo
 
@@ -50,18 +52,18 @@ Antes de submeter, verifique:
 
 - [ ] O título descreve claramente o conteúdo?
 - [ ] As tags são relevantes para busca?
-- [ ] O procedimento foi testado ou validado?
-- [ ] Os links estão funcionando?
-- [ ] O nível de confiabilidade está correto?
-- [ ] Não há informações sensíveis (senhas, IPs internos, nomes de servidores)?
+- [ ] O procedimento foi testado ou validado em laboratório?
+- [ ] Os links estão funcionando e apontando para destinos válidos?
+- [ ] O nível de confiabilidade (`reliability`) está preenchido corretamente?
+- [ ] Não há informações sensíveis (senhas, IPs internos reais, dados pessoais LGPD)?
 
 ### Passo 4: Commit e push
 
-1. Faça commit com mensagem descritiva:
+1. Faça commit com mensagem descritiva no padrão convencional:
    ```bash
-   git commit -m "Adiciona artigo sobre configuração de e-mail institucional"
+   git commit -m "docs(ifrn/suap): [ADD] Adiciona notas sobre configuracao de e-mail"
    ```
-2. Envie para o repositório:
+2. Envie para o seu fork:
    ```bash
    git push origin feature/nome-da-contribuicao
    ```
@@ -69,7 +71,7 @@ Antes de submeter, verifique:
 ### Passo 5: Pull Request
 
 1. Abra um Pull Request no repositório original.
-2. Descreva a contribuição no corpo do PR.
+2. Descreva detalhadamente a motivação e as alterações realizadas.
 3. Aguarde revisão e aprovação.
 
 ## Padrões de redação
@@ -79,8 +81,8 @@ Antes de submeter, verifique:
 - Use Markdown para formatação.
 - Mantenha títulos e subtítulos claros e objetivos.
 - Use listas numeradas para procedimentos sequenciais.
-- Use listas com bullets para itens não sequenciais.
-- Inclua exemplos de código quando aplicável.
+- Use listas com marcadores para itens conceituais ou não ordenados.
+- Inclua blocos de código com destaque de sintaxe quando aplicável.
 
 ### Frontmatter YAML
 
@@ -93,7 +95,7 @@ category: "Categoria"
 service: "Serviço ou sistema"
 audience: ["TIC", "Suporte"]
 tags: ["tag1", "tag2", "tag3"]
-status: "prático"
+reliability: "prático"
 last_review: "AAAA-MM-DD"
 source: "Fonte do conhecimento"
 ---
@@ -101,25 +103,25 @@ source: "Fonte do conhecimento"
 
 ### Níveis de confiabilidade
 
-- **Confirmado:** procedimento apoiado por documentação oficial ou validação formal.
-- **Prático:** solução testada por técnicos, mas sem documentação oficial.
-- **Hipótese:** possibilidade levantada, precisa de validação.
-- **Obsoleto:** informação desatualizada, manter apenas para referência histórica.
+- **Confirmado:** procedimento validado e apoiado por documentação oficial institucional ou pela equipe técnica.
+- **Prático:** solução testada em campo por técnicos, mas ainda sem documentação formal.
+- **Hipótese:** possibilidade técnica levantada durante diagnóstico, pendente de validação.
+- **Obsoleto:** informação desatualizada ou relativa a versões legadas, mantida apenas para referência histórica.
 
 ## O que NÃO incluir
 
-- Senhas ou credenciais de acesso.
-- Endereços IP internos ou nomes de servidores não públicos.
-- Dados pessoais de servidores ou usuários.
-- Links para grupos privados ou documentos restritos.
-- Informações sensíveis de segurança.
+- Senhas, credenciais de acesso, tokens ou chaves de API.
+- Endereços IP internos reais ou nomes de servidores internos privados.
+- Dados pessoais de servidores, alunos ou terceiros (em conformidade com a LGPD).
+- Links para grupos privados ou documentos confidenciais restritos.
+- Qualquer informação que possa comprometer a segurança da infraestrutura.
 
 ## Revisão e manutenção
 
-- Artigos devem ser revisados pelo menos uma vez por ano.
+- Artigos devem ser revisados periodicamente.
 - Atualize o campo `last_review` após cada revisão.
-- Marque artigos obsoletos com `status: "obsoleto"` e adicione nota explicativa.
+- Marque artigos obsoletos com `reliability: "obsoleto"` e adicione nota explicativa.
 
 ## Dúvidas?
 
-Abra uma issue no repositório ou entre em contato com a equipe de TIC.
+Abra uma issue no repositório ou entre em contato com o mantenedor.
