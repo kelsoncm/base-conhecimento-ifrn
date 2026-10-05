@@ -1,10 +1,10 @@
----
+﻿---
 title: "Solução de problemas de conexão à eduroam e wIFRN-Corp"
 category: "Redes"
 service: "Wi-Fi"
 audience: ["TIC", "Suporte"]
 tags: ["wifi", "eduroam", "wifrn-corp", "dns", "windows", "drivers", "android"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Diagnóstico de lentidão no SUAP em períodos de alta demanda"
 category: "SUAP"
 service: "Sistema Unificado de Administração Pública"
 audience: ["TIC", "Suporte", "Gestão"]
 tags: ["suap", "desempenho", "rsc", "pdf", "workers", "monitoramento"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

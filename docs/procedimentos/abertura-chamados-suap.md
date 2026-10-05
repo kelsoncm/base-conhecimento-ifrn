@@ -1,10 +1,10 @@
----
+﻿---
 title: "Abertura de chamados na Central de Serviços do SUAP"
 category: "Procedimentos"
 service: "Central de Serviços"
 audience: ["TIC", "Suporte", "Usuários"]
 tags: ["suap", "chamados", "suporte", "incidente", "solicitação", "central"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

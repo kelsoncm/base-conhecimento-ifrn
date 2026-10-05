@@ -1,10 +1,10 @@
----
+﻿---
 title: "Configuração de clientes de e-mail institucional"
 category: "E-mail"
 service: "Webmail Institucional"
 audience: ["TIC", "Suporte", "Usuários"]
 tags: ["email", "outlook", "thunderbird", "smtp", "imap", "webmail"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

@@ -1,10 +1,10 @@
----
+﻿---
 title: "Migração de infraestrutura VMware para Proxmox com backup automatizado"
 category: "Infraestrutura"
 service: "Virtualização"
 audience: ["TIC", "Administradores de Sistema"]
 tags: ["proxmox", "vmware", "backup", "virtualização", "hypervisor", "pbs"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

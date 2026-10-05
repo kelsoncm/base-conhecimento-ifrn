@@ -1,10 +1,10 @@
----
+﻿---
 title: "Limites de envio de e-mail no webmail institucional"
 category: "E-mail"
 service: "Webmail"
 audience: ["TIC", "Suporte", "Usuários"]
 tags: ["email", "webmail", "limites", "envio", "smtp", "spam"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

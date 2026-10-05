@@ -1,10 +1,10 @@
----
+﻿---
 title: "Sistema de ponto - Cadastro de digital e troubleshooting"
 category: "Sistemas"
 service: "Ponto Eletrônico"
 audience: ["TIC", "COGPE", "Servidores"]
 tags: ["ponto", "digital", "biometria", "suap", "terminal", "cadastro"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

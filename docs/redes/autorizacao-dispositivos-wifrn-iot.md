@@ -1,10 +1,10 @@
----
+﻿---
 title: "Como autorizar dispositivos na rede wIFRN-IoT"
 category: "Redes"
 service: "Wi-Fi"
 audience: ["TIC", "Suporte"]
 tags: ["wifi", "iot", "dispositivos", "mac", "suap", "firewall"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

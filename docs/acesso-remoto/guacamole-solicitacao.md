@@ -1,10 +1,10 @@
----
+﻿---
 title: "Guacamole - Solicitação de acesso remoto ao SUAP"
 category: "Acesso Remoto"
 service: "Guacamole"
 audience: ["TIC", "Suporte", "Usuários"]
 tags: ["guacamole", "acesso remoto", "suap", "vpn", "trabalho remoto", "proen"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---

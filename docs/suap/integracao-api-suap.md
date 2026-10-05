@@ -1,10 +1,10 @@
----
+﻿---
 title: "Integração de aplicações com a API do SUAP"
 category: "Desenvolvimento"
 service: "SUAP"
 audience: ["TIC", "Desenvolvedores"]
 tags: ["suap", "api", "oauth2", "jwt", "integração", "django", "javascript"]
-status: "prático"
+reliability: "prático"
 last_review: "2026-10-05"
 source: "Experiências trocadas entre colaboradores"
 ---
