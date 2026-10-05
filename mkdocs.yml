@@ -80,20 +80,27 @@ nav:
       - Solução de problemas Wi-Fi: redes/solucao-problemas-wifi-eduroam.md
       - Autorização na rede IoT: redes/autorizacao-dispositivos-wifrn-iot.md
       - Reserva de IP fixo via DHCP: redes/reserva-ip-dhcp.md
+      - Infovia Potiguar e RNP: redes/infovia-potiguar-rnp.md
+      - Linux e Wi-Fi Corporativo: redes/linux-wifi-corporativo.md
+      - Eventos e Wi-Fi para Visitantes: redes/eventos-wifi-visitantes.md
+  - SUAP:
+      - Diagnóstico de lentidão no SUAP: suap/lentidao-modulo-rsc.md
+      - Configuração de E-mail Institucional: suap/configuracao-email-institucional.md
+      - Integração com a API do SUAP: suap/integracao-api-suap.md
+      - PGD e RSC (Preenchimento de Tempo): suap/pgd-rsc-preenchimento-tempo.md
   - Infraestrutura:
       - Migração VMware para Proxmox: infraestrutura/migracao-vmware-proxmox.md
       - Monitoramento LibreNMS e Zabbix: infraestrutura/monitoramento-librenms-zabbix.md
-      - Windows Update e WSUS (RSAT): infraestrutura/windows-update-wsus-rsat.md
-  - Sistemas & Desenvolvimento:
-      - Diagnóstico de lentidão no SUAP: suap/lentidao-modulo-rsc.md
-      - Integração com a API do SUAP: desenvolvimento/integracao-api-suap.md
-  - Serviços & E-mail:
-      - Configuração de E-mail Institucional: e-mail/configuracao-email-institucional.md
-      - Limites de Envio no Webmail: e-mail/limites-envio-email-webmail.md
-  - Acesso Remoto:
-      - Solicitação via Guacamole: acesso-remoto/guacamole-solicitacao.md
-  - Contratos:
-      - Outsourcing de Impressão: contratos/outsourcing-impressao-demanda.md
+  - Sistemas:
+      - Windows Update e WSUS (RSAT): sistemas/windows-update-wsus-rsat.md
+      - Limites de Envio no Webmail: sistemas/limites-envio-email-webmail.md
+      - Sistema de Ponto (Cadastro Digital): sistemas/sistema-ponto-cadastro-digital.md
   - Procedimentos:
       - Liberação de Usuários Externos: procedimentos/liberacao-usuarios-externos.md
       - Abertura de Chamados no SUAP: procedimentos/abertura-chamados-suap.md
+  - Contratos:
+      - Outsourcing de Impressão: contratos/outsourcing-impressao-demanda.md
+  - Acesso Remoto:
+      - Solicitação via Guacamole: acesso-remoto/guacamole-solicitacao.md
+  - Licenças:
+      - Office 365 e Microsoft 365: licencas/office365-microsoft365-licencas.md
