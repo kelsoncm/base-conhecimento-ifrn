@@ -83,11 +83,17 @@ nav:
   - Infraestrutura:
       - Migração VMware para Proxmox: infraestrutura/migracao-vmware-proxmox.md
       - Monitoramento LibreNMS e Zabbix: infraestrutura/monitoramento-librenms-zabbix.md
+      - Windows Update e WSUS (RSAT): infraestrutura/windows-update-wsus-rsat.md
   - Sistemas & Desenvolvimento:
       - Diagnóstico de lentidão no SUAP: suap/lentidao-modulo-rsc.md
       - Integração com a API do SUAP: desenvolvimento/integracao-api-suap.md
-  - Serviços & Comunicação:
+  - Serviços & E-mail:
       - Configuração de E-mail Institucional: e-mail/configuracao-email-institucional.md
+      - Limites de Envio no Webmail: e-mail/limites-envio-email-webmail.md
+  - Acesso Remoto:
+      - Solicitação via Guacamole: acesso-remoto/guacamole-solicitacao.md
+  - Contratos:
+      - Outsourcing de Impressão: contratos/outsourcing-impressao-demanda.md
   - Procedimentos:
       - Liberação de Usuários Externos: procedimentos/liberacao-usuarios-externos.md
       - Abertura de Chamados no SUAP: procedimentos/abertura-chamados-suap.md

@@ -32,6 +32,18 @@ Bem-vindo à **Base de Conhecimento de TIC do IFRN**! Este repositório centrali
     
     [:octicons-arrow-right-24: Ver artigos de E-mail](e-mail/configuracao-email-institucional.md)
 
+-   :material-remote-desktop: **Acesso Remoto**
+    <br>
+    Procedimentos de solicitação e utilização do Apache Guacamole para acesso seguro a sistemas internos.
+    
+    [:octicons-arrow-right-24: Ver Acesso Remoto](acesso-remoto/guacamole-solicitacao.md)
+
+-   :material-file-document-edit-outline: **Contratos de TIC**
+    <br>
+    Planejamento de demanda, gestão de franquias e acompanhamento de contratos como outsourcing de impressão.
+    
+    [:octicons-arrow-right-24: Ver Contratos](contratos/outsourcing-impressao-demanda.md)
+
 -   :material-clipboard-list-outline: **Procedimentos Operacionais**
     <br>
     Fluxos administrativos de TIC, liberação de acesso para usuários externos a laboratórios e abertura de chamados na Central de Serviços.
