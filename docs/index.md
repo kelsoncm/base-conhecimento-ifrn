@@ -9,37 +9,37 @@ Bem-vindo à **Base de Conhecimento de TIC do IFRN**! Este repositório centrali
 <div class="grid cards" markdown>
 
 -   :material-wifi: **Redes e Conectividade**
-    ---
+    <br>
     Configurações e diagnósticos de Wi-Fi corporativo (*eduroam*, *wIFRN-Corp*, *wIFRN-IoT*) e serviços de rede como DHCP.
     
     [:octicons-arrow-right-24: Ver artigos de Redes](redes/solucao-problemas-wifi-eduroam.md)
 
 -   :material-server: **Infraestrutura**
-    ---
+    <br>
     Virtualização com Proxmox VE, migração de ambientes VMware, backup automatizado (PBS) e monitoramento de ativos com LibreNMS e Zabbix.
     
     [:octicons-arrow-right-24: Ver artigos de Infraestrutura](infraestrutura/migracao-vmware-proxmox.md)
 
 -   :material-application-cog: **Sistemas & SUAP**
-    ---
+    <br>
     Diagnóstico de desempenho no SUAP, tratamento de picos de carga (módulos como RSC) e integração via APIs institucionais.
     
     [:octicons-arrow-right-24: Ver artigos de Sistemas](suap/lentidao-modulo-rsc.md)
 
 -   :material-email-outline: **Serviços & E-mail**
-    ---
+    <br>
     Configuração de clientes de e-mail institucional e comunicação integrada para servidores e setores.
     
     [:octicons-arrow-right-24: Ver artigos de E-mail](e-mail/configuracao-email-institucional.md)
 
 -   :material-clipboard-list-outline: **Procedimentos Operacionais**
-    ---
+    <br>
     Fluxos administrativos de TIC, liberação de acesso para usuários externos a laboratórios e abertura de chamados na Central de Serviços.
     
     [:octicons-arrow-right-24: Ver Procedimentos](procedimentos/liberacao-usuarios-externos.md)
 
 -   :material-handshake-outline: **Como Contribuir**
-    ---
+    <br>
     Orientações para submissão de novos artigos, revisão contínua e padrões de documentação e segurança.
     
     [:octicons-arrow-right-24: Guia de Contribuição](contribuindo.md)
@@ -52,12 +52,12 @@ Bem-vindo à **Base de Conhecimento de TIC do IFRN**! Este repositório centrali
 
 Cada artigo da base possui um nível de confiabilidade declarado em seu cabeçalho para orientar os técnicos:
 
-| Nível | Significado |
-|---|---|
-| **Confirmado** | Procedimento validado e apoiado por documentação oficial institucional ou pela equipe responsável. |
-| **Prático** | Solução comprovada e testada em campo por técnicos, mas ainda pendente de homologação formal. |
-| **Hipótese** | Possibilidade técnica identificada que ainda necessita de teste e validação em ambiente controlado. |
-| **Obsoleto** | Procedimento descontinuado ou relativo a versões antigas mantido apenas para referência histórica. |
+| Nível          | Significado                                                                                         |
+|----------------|-----------------------------------------------------------------------------------------------------|
+| **Confirmado** | Procedimento validado e apoiado por documentação oficial institucional ou pela equipe responsável.  |
+| **Prático**    | Solução comprovada e testada em campo por técnicos, mas ainda pendente de homologação formal.       |
+| **Hipótese**   | Possibilidade técnica identificada que ainda necessita de teste e validação em ambiente controlado. |
+| **Obsoleto**   | Procedimento descontinuado ou relativo a versões antigas mantido apenas para referência histórica.  |
 
 ---
 
