@@ -59,6 +59,18 @@ markdown_extensions:
   - toc:
       permalink: true
 
+extra:
+  analytics:
+    provider: google
+    property: !ENV [GA_MEASUREMENT_ID, ""]
+  consent:
+    title: Consentimento de Cookies
+    description: >-
+      Utilizamos cookies e métricas anônimas de acesso para aprimorar a base de conhecimento de TIC do IFRN, em conformidade com a LGPD.
+    actions:
+      - accept
+      - reject
+
 nav:
   - Início:
       - Apresentação: index.md
