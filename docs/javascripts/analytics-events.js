@@ -1,5 +1,5 @@
 /**
- * Analytics Events Tracking - Base de Conhecimento TIC IFRN
+ * Analytics Events Tracking - Conhecimentos Pessoais
  * 
  * Monitora eventos de interação (cópia de código, cliques em sistemas
  * institucionais e expansão de detalhes) respeitando o consentimento LGPD.

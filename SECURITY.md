@@ -1,12 +1,12 @@
 # Política de Segurança
 
-Esta política de segurança estabelece as diretrizes para o relato de vulnerabilidades, tratamento de incidentes e proteção de informações confidenciais na **Base de Conhecimento TIC IFRN**.
+Esta política de segurança estabelece as diretrizes para o relato de vulnerabilidades, tratamento de incidentes e proteção de informações confidenciais no repositório de **Conhecimentos Pessoais**.
 
 ---
 
 ## 1. Escopo e Diretrizes de Conteúdo
 
-Por se tratar de um repositório voltado a procedimentos operacionais, manuais técnicos e guias de infraestrutura de TIC:
+Por se tratar de um repositório pessoal voltado a anotações de procedimentos operacionais, manuais técnicos e guias de infraestrutura:
 
 - **Não inclusão de dados sensíveis**: É terminantemente proibido incluir senhas reais, credenciais de acesso, chaves privadas (SSH/TLS), tokens de API ou segredos institucionais nos arquivos e no histórico do Git.
 - **Proteção de Dados Pessoais (LGPD)**: Exemplos, logs ou capturas de tela não devem conter dados pessoais identificáveis (como CPF, matrículas, e-mails reais de servidores ou discentes), em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
@@ -16,18 +16,18 @@ Por se tratar de um repositório voltado a procedimentos operacionais, manuais t
 
 ## 2. Como Relatar uma Vulnerabilidade ou Vazamento
 
-Se você identificou uma vulnerabilidade de segurança neste repositório, em sistemas institucionais documentados ou a exposição acidental de credenciais/dados sensíveis:
+Se você identificou uma vulnerabilidade de segurança neste repositório ou a exposição acidental de credenciais/dados sensíveis:
 
 > **Atenção:** NÃO abra uma _issue_ pública nem crie _pull requests_ públicos expondo a vulnerabilidade ou os dados vazados.
 
 ### Canais para Notificação Responsável:
 
 1. **Relato Privado no GitHub**:
-   - Utilize a funcionalidade de [Relato Privado de Vulnerabilidades do GitHub](https://github.com/kelsoncm/base-conhecimento-ifrn/security/advisories/new) (Security Advisories), caso disponível.
+   - Utilize a funcionalidade de [Relato Privado de Vulnerabilidades do GitHub](https://github.com/kelsoncm/conhecimentos-pessoais/security/advisories/new) (Security Advisories), caso disponível.
 2. **Contato com o Mantenedor**:
    - Envie um e-mail para **Kelson da Costa Medeiros** em: [kelsoncm@gmail.com](mailto:kelsoncm@gmail.com).
 3. **Canais Institucionais (Incidentes em Serviços do IFRN)**:
-   - Para falhas críticas ou incidentes em sistemas em produção do IFRN, notifique a equipe responsável através dos canais oficiais da DITIC/DIGTI ou da Equipe de Tratamento e Resposta a Incidentes de Redes (ETIR/IFRN).
+   - Para falhas críticas ou incidentes em sistemas em produção pertencentes ao IFRN, notifique imediatamente a equipe responsável através dos canais oficiais da Reitoria, DITIC/DIGTI ou da Equipe de Tratamento e Resposta a Incidentes de Redes (ETIR/IFRN).
 
 ---
 

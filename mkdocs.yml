@@ -1,10 +1,10 @@
-site_name: Base de Conhecimento TIC IFRN
-site_description: Repositório de artigos técnicos e procedimentos para equipes de TIC do IFRN.
-site_author: Equipe TIC IFRN
-site_url: https://kelsoncm.github.io/base-conhecimento-ifrn/
+site_name: Conhecimentos Pessoais
+site_description: Anotações técnicas, procedimentos e compartilhamento de conhecimentos pessoais de Kelson da Costa Medeiros.
+site_author: Kelson da Costa Medeiros
+site_url: https://kelsoncm.github.io/conhecimentos-pessoais/
 
-repo_name: kelsoncm/base-conhecimento-ifrn
-repo_url: https://github.com/kelsoncm/base-conhecimento-ifrn
+repo_name: kelsoncm/conhecimentos-pessoais
+repo_url: https://github.com/kelsoncm/conhecimentos-pessoais
 edit_uri: edit/main/docs/
 
 theme:
@@ -82,41 +82,43 @@ extra:
   consent:
     title: Consentimento de Cookies
     description: >-
-      Utilizamos cookies e métricas anônimas de acesso para aprimorar a base de conhecimento de TIC do IFRN, em conformidade com a LGPD.
+      Utilizamos cookies e métricas anônimas de acesso para aprimorar este repositório de conhecimentos pessoais, em conformidade com a LGPD.
     actions:
       - accept
       - reject
 
 nav:
-  - Início:
-      - Apresentação: index.md
+  - Início: index.md
+  - IFRN:
+      - Apresentação: ifrn/index.md
+      - Redes:
+          - Solução de problemas Wi-Fi: ifrn/redes/solucao-problemas-wifi-eduroam.md
+          - Autorização na rede IoT: ifrn/redes/autorizacao-dispositivos-wifrn-iot.md
+          - Reserva de IP fixo via DHCP: ifrn/redes/reserva-ip-dhcp.md
+          - Infovia Potiguar e RNP: ifrn/redes/infovia-potiguar-rnp.md
+          - Linux e Wi-Fi Corporativo: ifrn/redes/linux-wifi-corporativo.md
+          - Eventos e Wi-Fi para Visitantes: ifrn/redes/eventos-wifi-visitantes.md
+      - SUAP:
+          - Diagnóstico de lentidão no SUAP: ifrn/suap/lentidao-modulo-rsc.md
+          - Configuração de E-mail Institucional: ifrn/suap/configuracao-email-institucional.md
+          - Integração com a API do SUAP: ifrn/suap/integracao-api-suap.md
+          - PGD e RSC (Preenchimento de Tempo): ifrn/suap/pgd-rsc-preenchimento-tempo.md
+      - Infraestrutura:
+          - Migração VMware para Proxmox: ifrn/infraestrutura/migracao-vmware-proxmox.md
+          - Monitoramento LibreNMS e Zabbix: ifrn/infraestrutura/monitoramento-librenms-zabbix.md
+      - Sistemas:
+          - Windows Update e WSUS (RSAT): ifrn/sistemas/windows-update-wsus-rsat.md
+          - Limites de Envio no Webmail: ifrn/sistemas/limites-envio-email-webmail.md
+          - Sistema de Ponto (Cadastro Digital): ifrn/sistemas/sistema-ponto-cadastro-digital.md
+      - Procedimentos:
+          - Liberação de Usuários Externos: ifrn/procedimentos/liberacao-usuarios-externos.md
+          - Abertura de Chamados no SUAP: ifrn/procedimentos/abertura-chamados-suap.md
+      - Contratos:
+          - Outsourcing de Impressão: ifrn/contratos/outsourcing-impressao-demanda.md
+      - Acesso Remoto:
+          - Solicitação via Guacamole: ifrn/acesso-remoto/guacamole-solicitacao.md
+      - Licenças:
+          - Office 365 e Microsoft 365: ifrn/licencas/office365-microsoft365-licencas.md
+  - Sobre:
       - Como Contribuir: contribuindo.md
       - Política de Segurança: seguranca.md
-  - Redes:
-      - Solução de problemas Wi-Fi: redes/solucao-problemas-wifi-eduroam.md
-      - Autorização na rede IoT: redes/autorizacao-dispositivos-wifrn-iot.md
-      - Reserva de IP fixo via DHCP: redes/reserva-ip-dhcp.md
-      - Infovia Potiguar e RNP: redes/infovia-potiguar-rnp.md
-      - Linux e Wi-Fi Corporativo: redes/linux-wifi-corporativo.md
-      - Eventos e Wi-Fi para Visitantes: redes/eventos-wifi-visitantes.md
-  - SUAP:
-      - Diagnóstico de lentidão no SUAP: suap/lentidao-modulo-rsc.md
-      - Configuração de E-mail Institucional: suap/configuracao-email-institucional.md
-      - Integração com a API do SUAP: suap/integracao-api-suap.md
-      - PGD e RSC (Preenchimento de Tempo): suap/pgd-rsc-preenchimento-tempo.md
-  - Infraestrutura:
-      - Migração VMware para Proxmox: infraestrutura/migracao-vmware-proxmox.md
-      - Monitoramento LibreNMS e Zabbix: infraestrutura/monitoramento-librenms-zabbix.md
-  - Sistemas:
-      - Windows Update e WSUS (RSAT): sistemas/windows-update-wsus-rsat.md
-      - Limites de Envio no Webmail: sistemas/limites-envio-email-webmail.md
-      - Sistema de Ponto (Cadastro Digital): sistemas/sistema-ponto-cadastro-digital.md
-  - Procedimentos:
-      - Liberação de Usuários Externos: procedimentos/liberacao-usuarios-externos.md
-      - Abertura de Chamados no SUAP: procedimentos/abertura-chamados-suap.md
-  - Contratos:
-      - Outsourcing de Impressão: contratos/outsourcing-impressao-demanda.md
-  - Acesso Remoto:
-      - Solicitação via Guacamole: acesso-remoto/guacamole-solicitacao.md
-  - Licenças:
-      - Office 365 e Microsoft 365: licencas/office365-microsoft365-licencas.md
