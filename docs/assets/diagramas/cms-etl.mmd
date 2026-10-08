@@ -1,0 +1,8 @@
+flowchart LR
+    A["WordPress<br/>banco + uploads"] --> B["1 Extrair e<br/>transformar<br/>DEAD/ZL"]
+    B --> C["2 Decisão<br/>editorial<br/>COCSEV/ZL"]
+    C --> D["3 Validar em<br/>treinamento<br/>DEAD + COCSEV<br/>+ DILIC"]
+    D --> E["4 Carregar<br/>em produção<br/>DILIC"]
+    E --> G["Redirects<br/>301"]
+    A --> F["Congelar o<br/>acervo estático<br/>DEAD/ZL"]
+    F --> H["Rewrite do<br/>restante<br/>DIGTI"]

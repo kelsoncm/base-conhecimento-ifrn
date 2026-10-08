@@ -27,6 +27,24 @@ Bem-vindo ao acervo de anotações técnicas e tutoriais práticos organizados n
     
     [:octicons-arrow-right-24: Ver artigos do SUAP](suap/lentidao-modulo-rsc.md)
 
+-   :material-school-outline: **AVA (Moodle)**
+    <br>
+    Integração SUAP–Moodle, SSO, ambiente de desenvolvimento, build da imagem, tema e plugins de gamificação.
+    
+    [:octicons-arrow-right-24: Ver AVA](ava/integracao-suap-moodle-visao-geral.md)
+
+-   :material-web: **Portal e CMS**
+    <br>
+    Planejamento da migração do Portal EaD (WordPress) para o Portal Institucional (Wagtail).
+    
+    [:octicons-arrow-right-24: Ver Portal e CMS](cms/migracao-portal-ead-wordpress-wagtail.md)
+
+-   :material-book-open-variant: **H5P**
+    <br>
+    Livro Interativo com controle de acesso por capítulo no Moodle.
+    
+    [:octicons-arrow-right-24: Ver H5P](h5p/livro-interativo-acesso-por-capitulo.md)
+
 -   :material-server: **Infraestrutura**
     <br>
     Virtualização com Proxmox VE, migração de ambientes VMware, backup automatizado (PBS) e monitoramento com LibreNMS e Zabbix.

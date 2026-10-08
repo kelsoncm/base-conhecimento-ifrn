@@ -1,0 +1,10 @@
+flowchart LR
+    I["Item do<br/>WordPress"] --> Q1{"Curso, edital,<br/>evento ou polo?"}
+    Q1 -->|"sim"| N["Fora da migração<br/>(só acervo)"]
+    Q1 -->|"não"| Q3{"Decisão<br/>COCSEV/ZL"}
+    Q3 -->|"A"| A["A Migrar"]
+    Q3 -->|"B"| B["B Migrar com<br/>reescrita"]
+    Q3 -->|"C"| C["C Acervo<br/>estático"]
+    Q3 -->|"D"| D["D Descartar"]
+    A --> T["Converter<br/>em blocos"]
+    B --> T

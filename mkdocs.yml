@@ -43,7 +43,11 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -103,9 +107,22 @@ nav:
           - Configuração de E-mail Institucional: ifrn/suap/configuracao-email-institucional.md
           - Integração com a API do SUAP: ifrn/suap/integracao-api-suap.md
           - PGD e RSC (Preenchimento de Tempo): ifrn/suap/pgd-rsc-preenchimento-tempo.md
+      - AVA (Moodle):
+          - Integração SUAP e Moodle (visão geral): ifrn/ava/integracao-suap-moodle-visao-geral.md
+          - SSO do Moodle com auth_suap: ifrn/ava/sso-moodle-auth-suap.md
+          - Diário, notas e secretaria: ifrn/ava/configuracao-diario-notas-professor-secretaria.md
+          - Ambiente de desenvolvimento (Docker): ifrn/ava/ambiente-dev-docker-compose-moodle.md
+          - Build e release da imagem Moodle: ifrn/ava/build-release-imagem-moodle-docker.md
+          - Tema e blocos SUAP: ifrn/ava/tema-suap-moodle.md
+          - Plugins de gamificação ProITEC: ifrn/ava/plugins-gamificacao-proitec.md
+      - Portal e CMS:
+          - Migração Portal EaD para Wagtail: ifrn/cms/migracao-portal-ead-wordpress-wagtail.md
+      - H5P:
+          - Livro Interativo com acesso por capítulo: ifrn/h5p/livro-interativo-acesso-por-capitulo.md
       - Infraestrutura:
           - Migração VMware para Proxmox: ifrn/infraestrutura/migracao-vmware-proxmox.md
           - Monitoramento LibreNMS e Zabbix: ifrn/infraestrutura/monitoramento-librenms-zabbix.md
+          - Deploy de WordPress com Helm e Actions: ifrn/infraestrutura/deploy-wordpress-helm-github-actions.md
       - Sistemas:
           - Windows Update e WSUS (RSAT): ifrn/sistemas/windows-update-wsus-rsat.md
           - Limites de Envio no Webmail: ifrn/sistemas/limites-envio-email-webmail.md
