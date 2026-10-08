@@ -1,0 +1,5 @@
+flowchart LR
+    S["SUAP<br/>(SGA)"] -->|"cursos, turmas,<br/>usuários, matrículas"| I["Integrador AVA<br/>(Django)"]
+    I --> P["local_suap /<br/>tool_sga"]
+    P --> M["Moodle"]
+    M -.->|"notas<br/>(sentido inverso)"| S

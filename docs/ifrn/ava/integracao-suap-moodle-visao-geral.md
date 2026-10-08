@@ -28,10 +28,8 @@ O SUAP (módulo Edu) é o Sistema de Gestão Acadêmica (SGA) e guarda o registr
 
 Fluxo geral:
 
-```text
-SUAP (SGA)  ->  Integrador AVA (Django)  ->  local_suap / tool_sga  ->  Moodle
-   ^                                                                      |
-   +------------------------ notas (sentido inverso) ---------------------+
+```mermaid
+--8<-- "docs/assets/diagramas/ava-fluxo-sincronizacao.mmd"
 ```
 
 A sincronização é sempre iniciada a partir do SUAP, por ação humana (professor, coordenação ou secretaria). O Integrador não consulta o SUAP por conta própria.
