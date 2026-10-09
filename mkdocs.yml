@@ -110,6 +110,7 @@ nav:
       - AVA (Moodle):
           - Integração SUAP e Moodle (visão geral): ifrn/ava/integracao-suap-moodle-visao-geral.md
           - SSO do Moodle com auth_suap: ifrn/ava/sso-moodle-auth-suap.md
+          - Bloqueio e edição de CPF e campos de perfil: ifrn/ava/edicao-bloqueio-cpf-campos-perfil-moodle.md
           - Diário, notas e secretaria: ifrn/ava/configuracao-diario-notas-professor-secretaria.md
           - Ambiente de desenvolvimento (Docker): ifrn/ava/ambiente-dev-docker-compose-moodle.md
           - Build e release da imagem Moodle: ifrn/ava/build-release-imagem-moodle-docker.md
