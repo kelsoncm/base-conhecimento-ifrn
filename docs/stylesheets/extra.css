@@ -1,41 +1,71 @@
-/* Melhores para o menu lateral esquerdo (sidebar navigation) */
+/* ==========================================================================
+   Estilização e Refinamento de UI do Menu Lateral (baseado na skill better-ui)
+   ========================================================================== */
 
-/* Espaçamento e rolagem para não colar no texto */
+/* 1. Contenção de Rolagem (Scroll Containment - better-ui) */
 .md-sidebar--primary .md-sidebar__scrollwrap {
   padding-right: 6px;
+  overscroll-behavior: contain;
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* Título da seção principal do menu */
+/* 2. Remoção de Título Sobrevindo/Duplicado no Topo da Sidebar */
 .md-nav--primary > .md-nav__title {
-  display: none; /* Esconde título duplicado/sobreposto da aba ativa no topo do sidebar */
+  display: none;
 }
 
-/* Estilização dos grupos/seções de navegação */
-.md-nav__item--section > .md-nav__link {
-  font-weight: 700;
-  color: var(--md-default-foreground);
-  margin-top: 0.6rem;
-  padding-bottom: 0.2rem;
-  border-bottom: 1px solid var(--md-default-foreground--min);
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-/* Links do menu lateral: melhor altura de linha e padding */
+/* 3. Estilização dos Links do Menu Lateral */
 .md-nav__link {
   line-height: 1.45;
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   word-break: break-word;
+  border-radius: 4px;
+  /* Transição explícita (better-ui: transicionar apenas propriedades necessárias) */
+  transition: color 150ms ease-out, background-color 150ms ease-out, border-color 150ms ease-out;
 }
 
-/* Destaque para o item ativo */
-.md-nav__link--active {
+/* 4. Suporte a Telas Touch e Efeito Hover (better-ui: apenas para ponteiros com suporte a hover) */
+@media (hover: hover) {
+  .md-nav__link:hover {
+    color: var(--md-primary-fg-color);
+    background-color: var(--md-default-foreground--lightest);
+  }
+}
+
+/* 5. Destaque Elegante para o Item Ativo (Active / Current State) */
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
   font-weight: 600;
+  color: var(--md-primary-fg-color);
 }
 
-/* Melhora a indentação dos subitens */
+.md-nav__link--active {
+  background-color: rgba(0, 150, 136, 0.08);
+  border-left: 3px solid var(--md-primary-fg-color);
+  border-radius: 0 4px 4px 0;
+}
+
+/* Modo escuro: ajuste fino de fundo do item ativo */
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  background-color: rgba(0, 150, 136, 0.18);
+}
+
+/* 6. Hierarquia de Níveis da Arvore de Navegação */
 .md-nav__list .md-nav__list {
   padding-left: 0.4rem;
+}
+
+/* 7. Cabeçalhos de Seções/Categorias no Menu */
+.md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  color: var(--md-default-foreground);
+  margin-top: 0.75rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--md-default-foreground--min);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
