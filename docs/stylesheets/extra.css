@@ -1,0 +1,41 @@
+/* Melhores para o menu lateral esquerdo (sidebar navigation) */
+
+/* Espaçamento e rolagem para não colar no texto */
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  padding-right: 6px;
+}
+
+/* Título da seção principal do menu */
+.md-nav--primary > .md-nav__title {
+  display: none; /* Esconde título duplicado/sobreposto da aba ativa no topo do sidebar */
+}
+
+/* Estilização dos grupos/seções de navegação */
+.md-nav__item--section > .md-nav__link {
+  font-weight: 700;
+  color: var(--md-default-foreground);
+  margin-top: 0.6rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid var(--md-default-foreground--min);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Links do menu lateral: melhor altura de linha e padding */
+.md-nav__link {
+  line-height: 1.45;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+  word-break: break-word;
+}
+
+/* Destaque para o item ativo */
+.md-nav__link--active {
+  font-weight: 600;
+}
+
+/* Melhora a indentação dos subitens */
+.md-nav__list .md-nav__list {
+  padding-left: 0.4rem;
+}
